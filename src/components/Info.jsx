@@ -3,8 +3,8 @@ import { Form, Button, Input, notification } from 'antd'
 import fly from 'flyio'
 
 function Info() {
-    const onFinish = values => {
-        fly
+    const onFinish = async values => {
+        await fly
             .post('/info', {
                 company: values.company,
                 name: values.name,

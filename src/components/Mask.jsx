@@ -16,16 +16,18 @@ function Mask() {
     const [visible, setVisible] = useState(false)
     return < Row style={{ paddingTop: 10 }
     } align='middle' justify='center' >
-        <Col style={{ paddingBottom: 10 }}>
-            <Button type='danger' size='large' onClick={() => setVisible(true)}>Please fill in your contact information</Button>
-            <Modal visible={visible} footer={null} onCancel={() => setVisible(false)}>
-                <Row type='flex' justify='center' align='middle'>
-                    <Col xs={24} sm={24} md={24} lg={16} xl={16} xxl={16}>
-                        <Info />
-                    </Col>
-                </Row>
-            </Modal>
-        </Col>
+        <Row>
+            <Col style={{ paddingBottom: 10 }}>
+                <Button type='danger' size='large' onClick={() => setVisible(true)}>Please fill in your contact information</Button>
+                <Modal visible={visible} footer={null} onCancel={() => setVisible(false)}>
+                    <Row type='flex' justify='center' align='middle'>
+                        <Col xs={24} sm={24} md={24} lg={16} xl={16} xxl={16}>
+                            <Info />
+                        </Col>
+                    </Row>
+                </Modal>
+            </Col>
+        </Row>
         <Col span={22}>
             <Carousel autoplay>
                 <div>

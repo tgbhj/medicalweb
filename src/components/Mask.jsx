@@ -7,9 +7,10 @@ import img_4 from '../images/img_4.jpg'
 import img_5 from '../images/img_5.jpg'
 import img_6 from '../images/img_6.jpg'
 import img_7 from '../images/img_7.jpg'
-import img_8 from '../images/img_8.jpg'
-import img_9 from '../images/img_9.jpg'
+import img_8 from '../images/img_8.jpeg'
+import img_9 from '../images/img_9.jpeg'
 import img_10 from '../images/img_10.jpg'
+import img_11 from '../images/img_11.jpg'
 import Info from './Info'
 
 function Mask() {
@@ -59,6 +60,9 @@ function Mask() {
                 </div>
                 <div>
                     <img src={img_10} width='100%' height='100%' />
+                </div>
+                <div>
+                    <img src={img_11} width='100%' height='100%' />
                 </div>
             </Carousel>
         </Col>

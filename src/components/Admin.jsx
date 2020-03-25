@@ -36,11 +36,11 @@ function Admin() {
         expandable={{
             expandedRowRender: record => <p style={{ margin: 0 }}>{`联系人留言：${record.msg}`}</p>
         }}>
-        <Table.Column title='公司名称' dataIndex='company' key='company' />
-        <Table.Column title='联系人姓名' dataIndex='name' key='name' />
-        <Table.Column title='联系人电话' dataIndex='phone' key='phone' />
-        <Table.Column title='联系人邮箱' dataIndex='email' key='email' />
-        <Table.Column title='提交日期时间' dataIndex='date' key='date' />
+        <Table.Column title='公司名称' dataIndex='company' />
+        <Table.Column title='联系人姓名' dataIndex='name' />
+        <Table.Column title='联系人电话' dataIndex='phone' />
+        <Table.Column title='联系人邮箱' dataIndex='email' />
+        <Table.Column title='提交日期时间' dataIndex='date' />
     </Table>
 }
 

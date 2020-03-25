@@ -24,6 +24,7 @@ import Info from './Info'
 
 function Mask() {
     const [visible, setVisible] = useState(false)
+
     return < Row style={{ paddingTop: 10 }} align='middle' justify='center'>
         <Row>
             <Col style={{ paddingBottom: 10 }}>
@@ -39,66 +40,26 @@ function Mask() {
         </Row>
         <Col span={22}>
             <Carousel autoplay>
-                <div>
-                    <img src={img_1} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_2} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_3} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_4} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_5} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_6} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_7} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_8} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_9} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_10} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_11} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_12} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_13} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_14} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_15} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_16} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_17} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_18} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_19} width='100%' height='100%' />
-                </div>
-                <div>
-                    <img src={img_20} width='100%' height='100%' />
-                </div>
+                <img src={img_1} width='100%' height='100%' />
+                <img src={img_2} width='100%' height='100%' />
+                <img src={img_3} width='100%' height='100%' />
+                <img src={img_4} width='100%' height='100%' />
+                <img src={img_5} width='100%' height='100%' />
+                <img src={img_6} width='100%' height='100%' />
+                <img src={img_7} width='100%' height='100%' />
+                <img src={img_8} width='100%' height='100%' />
+                <img src={img_9} width='100%' height='100%' />
+                <img src={img_10} width='100%' height='100%' />
+                <img src={img_11} width='100%' height='100%' />
+                <img src={img_12} width='100%' height='100%' />
+                <img src={img_13} width='100%' height='100%' />
+                <img src={img_14} width='100%' height='100%' />
+                <img src={img_15} width='100%' height='100%' />
+                <img src={img_16} width='100%' height='100%' />
+                <img src={img_17} width='100%' height='100%' />
+                <img src={img_18} width='100%' height='100%' />
+                <img src={img_19} width='100%' height='100%' />
+                <img src={img_20} width='100%' height='100%' />
             </Carousel>
         </Col>
     </Row >

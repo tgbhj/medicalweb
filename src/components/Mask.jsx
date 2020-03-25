@@ -8,9 +8,18 @@ import img_5 from '../images/img_5.jpg'
 import img_6 from '../images/img_6.jpg'
 import img_7 from '../images/img_7.jpg'
 import img_8 from '../images/img_8.jpeg'
-import img_9 from '../images/img_9.jpeg'
+import img_9 from '../images/img_9.jpg'
 import img_10 from '../images/img_10.jpg'
 import img_11 from '../images/img_11.jpg'
+import img_12 from '../images/img_12.jpg'
+import img_13 from '../images/img_13.jpg'
+import img_14 from '../images/img_14.jpg'
+import img_15 from '../images/img_15.jpg'
+import img_16 from '../images/img_16.jpg'
+import img_17 from '../images/img_17.jpg'
+import img_18 from '../images/img_18.jpg'
+import img_19 from '../images/img_19.jpg'
+import img_20 from '../images/img_20.jpg'
 import Info from './Info'
 
 function Mask() {
@@ -62,6 +71,33 @@ function Mask() {
                 </div>
                 <div>
                     <img src={img_11} width='100%' height='100%' />
+                </div>
+                <div>
+                    <img src={img_12} width='100%' height='100%' />
+                </div>
+                <div>
+                    <img src={img_13} width='100%' height='100%' />
+                </div>
+                <div>
+                    <img src={img_14} width='100%' height='100%' />
+                </div>
+                <div>
+                    <img src={img_15} width='100%' height='100%' />
+                </div>
+                <div>
+                    <img src={img_16} width='100%' height='100%' />
+                </div>
+                <div>
+                    <img src={img_17} width='100%' height='100%' />
+                </div>
+                <div>
+                    <img src={img_18} width='100%' height='100%' />
+                </div>
+                <div>
+                    <img src={img_19} width='100%' height='100%' />
+                </div>
+                <div>
+                    <img src={img_20} width='100%' height='100%' />
                 </div>
             </Carousel>
         </Col>

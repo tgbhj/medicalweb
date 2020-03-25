@@ -24,7 +24,7 @@ import Info from './Info'
 
 function Mask() {
     const [visible, setVisible] = useState(false)
-    return < Row style={{ paddingTop: 10 }} align='middle' justify='center' >
+    return < Row style={{ paddingTop: 10 }} align='middle' justify='center'>
         <Row>
             <Col style={{ paddingBottom: 10 }}>
                 <Button type='danger' size='large' onClick={() => setVisible(true)}>Please fill in your contact information</Button>

@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../images/logo.png'
 
 function Nav() {
-    return <Link to='/'><span style={{ fontSize: 24, color: 'hsla(0,0%,100%,.65)', paddingLeft: 10 }}>ADINNO Culture</span></Link>
+    return <Link to='/'><img src={logo} width='130' height='40' style={{ marginLeft: 10, marginBottom: 5 }} /></Link>
 }
 
 export default Nav

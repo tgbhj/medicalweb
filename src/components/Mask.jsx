@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { Fragment, useState } from 'react'
 import { Row, Col, Button, Modal, Carousel } from 'antd'
 import img_1 from '../images/img_1.jpg'
 import img_2 from '../images/img_2.jpg'
@@ -21,11 +21,12 @@ import img_18 from '../images/img_18.jpg'
 import img_19 from '../images/img_19.jpg'
 import img_20 from '../images/img_20.jpg'
 import Info from './Info'
+import KD from '../images/KD logo & ISO logo &JAS .jpg'
 
 function Mask() {
     const [visible, setVisible] = useState(false)
 
-    return < Row style={{ paddingTop: 10 }} align='middle' justify='center'>
+    return <Row style={{ paddingTop: 10 }} align='middle' justify='center'>
         <Row>
             <Col style={{ paddingBottom: 10 }}>
                 <Button type='danger' size='large' onClick={() => setVisible(true)}>Please fill in your contact information</Button>
@@ -62,7 +63,15 @@ function Mask() {
                 <img src={img_20} width='100%' height='100%' />
             </Carousel>
         </Col>
-    </Row >
+        <Col span={22}>
+            <div style={{ textAlign: 'center', margin: 'auto' }}>
+                <b style={{ fontSize: 32 }}>International Partners</b>
+            </div>
+        </Col>
+        <Col>
+            <img src={KD} width='100%' height='100%' />
+        </Col>
+    </Row>
 }
 
 export default Mask

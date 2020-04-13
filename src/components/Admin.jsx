@@ -33,9 +33,7 @@ function Admin() {
 
     return <Table dataSource={info} rowKey='_id' scroll={{ scrollToFirstRowOnChange: true }}
         pagination={{ simple: true, total: info.length, pageSize: 20 }}
-        expandable={{
-            expandedRowRender: record => <p style={{ margin: 0 }}>{`联系人留言：${record.msg}`}</p>
-        }}>
+        expandable={{ expandedRowRender: record => <p style={{ margin: 0 }}>{`联系人留言：${record.msg}`}</p> }}>
         <Table.Column title='公司名称' dataIndex='company' />
         <Table.Column title='联系人姓名' dataIndex='name' />
         <Table.Column title='联系人电话' dataIndex='phone' />

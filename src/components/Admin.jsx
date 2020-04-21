@@ -31,14 +31,15 @@ function Admin() {
         fetchData()
     }, [])
 
-    return <Table dataSource={info} rowKey='_id' scroll={{ scrollToFirstRowOnChange: true }}
+    return <Table dataSource={info} rowKey='id' scroll={{ scrollToFirstRowOnChange: true }}
         pagination={{ simple: true, total: info.length, pageSize: 20 }}
         expandable={{ expandedRowRender: record => <p style={{ margin: 0 }}>{`联系人留言：${record.msg}`}</p> }}>
+        <Table.Column title='ID' dataIndex='id' />
         <Table.Column title='公司名称' dataIndex='company' />
         <Table.Column title='联系人姓名' dataIndex='name' />
         <Table.Column title='联系人电话' dataIndex='phone' />
         <Table.Column title='联系人邮箱' dataIndex='email' />
-        <Table.Column title='提交日期时间' dataIndex='date' />
+        <Table.Column title='提交日期时间' dataIndex='createdAt' />
     </Table>
 }
 
